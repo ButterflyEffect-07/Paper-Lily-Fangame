@@ -2,6 +2,7 @@
 A paper lily/project kat fangame.
 
 # Guide to Contributing
+(Also, please make pull requests on the `public` branch, `main` is for the current release (which will exist when the game is runnable)
 
 ## Rules for Development
 1. Must have a github account
