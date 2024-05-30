@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Focus.mp3-5383e30d8adf539dc667991274f063d7.mp3str"
+
+[deps]
+
+source_file="res://scenes/Title/Focus.mp3"
+dest_files=[ "res://.import/Focus.mp3-5383e30d8adf539dc667991274f063d7.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

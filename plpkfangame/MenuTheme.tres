@@ -1,0 +1,55 @@
+[gd_resource type="Theme" load_steps=14 format=2]
+
+[sub_resource type="StyleBoxLine" id=13]
+color = Color( 0.568627, 0.054902, 0.164706, 1 )
+vertical = true
+
+[sub_resource type="Gradient" id=7]
+offsets = PoolRealArray( 0.27095, 1 )
+colors = PoolColorArray( 0.415686, 0.337255, 0.698039, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=8]
+gradient = SubResource( 7 )
+
+[sub_resource type="StyleBoxTexture" id=9]
+texture = SubResource( 8 )
+region_rect = Rect2( 0, 0, 2048, 1 )
+
+[sub_resource type="Gradient" id=4]
+colors = PoolColorArray( 0.286275, 0.0235294, 0.105882, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=5]
+gradient = SubResource( 4 )
+
+[sub_resource type="StyleBoxTexture" id=6]
+texture = SubResource( 5 )
+region_rect = Rect2( 0, 0, 2048, 1 )
+
+[sub_resource type="Gradient" id=10]
+offsets = PoolRealArray( 0, 0.536313, 1 )
+colors = PoolColorArray( 0.494118, 0.619608, 0.352941, 1, 0.72549, 0.133333, 0.313726, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=11]
+gradient = SubResource( 10 )
+
+[sub_resource type="StyleBoxTexture" id=12]
+texture = SubResource( 11 )
+region_rect = Rect2( 0, 0, 2048, 1 )
+
+[sub_resource type="Gradient" id=1]
+offsets = PoolRealArray( 0.402235, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 0.227451, 0, 0.0862745, 1 )
+
+[sub_resource type="GradientTexture" id=2]
+gradient = SubResource( 1 )
+
+[sub_resource type="StyleBoxTexture" id=3]
+texture = SubResource( 2 )
+region_rect = Rect2( 0, 0, 2048, 1 )
+
+[resource]
+Button/styles/focus = SubResource( 13 )
+Button/styles/hover = SubResource( 9 )
+Button/styles/normal = SubResource( 6 )
+Button/styles/pressed = SubResource( 12 )
+Panel/styles/panel = SubResource( 3 )
